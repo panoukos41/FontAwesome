@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34804.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03951FBE-AAB1-455F-B64F-4E0D8E3FEFC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{7B01E0CF-5634-4069-BCA7-377C62FBFF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{E03201C0-677A-4DF4-BA95-5DE2F790A9C7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome", "src\FontAwesome\FontAwesome.csproj", "{33F9B1DD-01A0-4589-B672-D4ED34D29715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.Generator", "tools\FontAwesome.Generator\FontAwesome.Generator.csproj", "{508130FB-120A-4A6E-A0D4-4A4BFCB4F187}"
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E308118-0D76-43E6-97D3-A115EF4B5465}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33F9B1DD-01A0-4589-B672-D4ED34D29715} = {03951FBE-AAB1-455F-B64F-4E0D8E3FEFC7}
+		{508130FB-120A-4A6E-A0D4-4A4BFCB4F187} = {7B01E0CF-5634-4069-BCA7-377C62FBFF11}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F9B1DD-01A0-4589-B672-D4ED34D29715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F9B1DD-01A0-4589-B672-D4ED34D29715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F9B1DD-01A0-4589-B672-D4ED34D29715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F9B1DD-01A0-4589-B672-D4ED34D29715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508130FB-120A-4A6E-A0D4-4A4BFCB4F187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508130FB-120A-4A6E-A0D4-4A4BFCB4F187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508130FB-120A-4A6E-A0D4-4A4BFCB4F187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508130FB-120A-4A6E-A0D4-4A4BFCB4F187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
