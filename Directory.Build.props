@@ -2,6 +2,7 @@
   <!--Build-->
   <PropertyGroup>
     <RootNamespace>P41.FontAwesome</RootNamespace>
+    <AssemblyName>$(RootNamespace)</AssemblyName>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
