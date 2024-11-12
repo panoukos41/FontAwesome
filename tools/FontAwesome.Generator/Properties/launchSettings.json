@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FontAwesome.Generator": {
+      "commandName": "Project",
+      "commandLineArgs": "./../../../../../src/FontAwesome"
+    }
+  }
+}

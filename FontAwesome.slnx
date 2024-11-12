@@ -1,9 +1,9 @@
 <Solution>
   <Folder Name="/toos/">
-    <Project Path="tools\FontAwesome.Generator\FontAwesome.Generator.csproj" />
+    <Project Path="tools\FontAwesome.Generator\FontAwesome.Generator.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src\FontAwesome\FontAwesome.csproj" />
+    <Project Path="src\FontAwesome\FontAwesome.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/root/">
     <File Path=".editorconfig" />
